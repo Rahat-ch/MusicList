@@ -40,9 +40,12 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-hot-loader": "^4.8.6",
+    "react-router-dom": "^5.0.0",
     "sass-loader": "^7.1.0",
     "webpack": "^4.31.0",
-    "webpack-dev-server": "^3.4.1"
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-dev-server": "^3.4.1",
+    "webpack-hot-middleware": "^2.25.0"
   },
   "devDependencies": {
     "jest": "^24.8.0",
