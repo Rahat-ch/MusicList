@@ -1,14 +1,14 @@
 import React from 'react';
 
+import Sidebar from '../shared/Sidebar';
+
 export default function HomePage() {
   return (
-    <section className="page-content">
+    <div>
       <div className="content-container">
         This is the home page.
       </div>
-      <aside className="sidebar">
-        This is a sidebar
-      </aside>
-    </section>
+      <Sidebar />
+    </div>
   );
 }
